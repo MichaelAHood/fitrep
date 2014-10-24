@@ -35,15 +35,15 @@ def capitalize(bullet):
             
 def assemble_bullet(words):
 	
-	size = len(words)
-	string = ''
+    size = len(words)
+    string = ''
 	
     for i in range(size):
-	    if i == len(words)-1:
-	        string = string + words[i] + ','
-	    else:
-		    string = string + words[i] + ' '
-	return string   
+        if i == (len(words)-1):
+            string = string + words[i] + ','
+        else:
+            string = string + words[i] + ' '
+    return string   
 
 def format_text(text):
 
