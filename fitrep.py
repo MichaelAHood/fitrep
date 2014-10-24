@@ -42,7 +42,7 @@ def get_pronouns(df, index):
     if sex == 'M':
         pronouns = ['he', 'his', 'He', 'His']
     else:
-        pronouns = ['she', 'her', 'She']
+        pronouns = ['she', 'her', 'She', 'Her']
     
     return pronouns
     
@@ -102,6 +102,7 @@ def make_intro_line(df, index):
         
     elif ranking == len(df) - 1:
         statement = "MIDN %s has finished the semester at the bottom of the %s class." % (last_name, grade_level)
+        return statement
      
     return statement  
 ### Remember to address conduct issues and PRB's at a later point.
