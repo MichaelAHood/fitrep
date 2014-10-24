@@ -8,7 +8,10 @@ import pandas
 import fitrep
 import csv
 
-df = pandas.read_csv('4c_data.csv')
+file_name = raw_input("What is the name of the file with the student data in it? \nNote: This file must end in '.csv'.  Ex: student_data.csv : " )
+
+df = pandas.read_csv(file_name)
+
 
 comments = [["Comments"]]
 destination_file_name = raw_input("What is the name of the file that you want the comments written to? \nNote: Your filename must end in '.csv'.  Ex: my_comments.csv :  " )
@@ -25,6 +28,6 @@ try:
             csv_writer.writerow(comments[i])
 
 finally:
-    close(destination_file)
+    destination_file.close()
 
 print "Comments successfully written to %s." % (destination_file_name) 
