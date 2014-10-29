@@ -11,5 +11,7 @@ I've never written documentation for anything before, so this is a work in progr
 This module will perform simple formatting fixes on the collateral duties section (Block 29).  It will capitalize the appropriate words and ensure that there are commas in the right spots (hopefully).
 
 2.  fitrep.py:
-This module contains a bunch of procedures that write the individual sentences for the comment section of a students FITREP.  The procedure complete_comment() is the most useful, if you just want to use the thing and don't really care how it works.
+This module contains the procedures that write the individual sentences for the comment section of a students FITREP.
 
+3.  writer.py:
+Run this module in the same working directory as the data.csv file and follow the on-screen prompt.  It's pretty self-explanatory and the script will create a new .CSV file, whose name you specify, with the comments in it.
