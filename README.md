@@ -3,7 +3,7 @@ fitrep
 
 A collection of scripts to automate error correction and comment generation for my student FITREPs.
 
-You can find a post I wrote discussing the development of this module at: https://medium.com/@michaelahood
+You can find a post I wrote discussing the development of this module at: http://michaelahood.com/
 
 I've never written documentation for anything before, so this is a work in progress.  Feel free to email if you have any questions or comments: michael.allen.hood314@gmail.com
 
