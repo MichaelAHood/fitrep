@@ -8,7 +8,7 @@ You can find a post I wrote discussing the development of this module at: http:/
 I've never written documentation for anything before, so this is a work in progress.  Feel free to email if you have any questions or comments: michael.allen.hood314@gmail.com
 
 1.  formatter.py:
-This module will perform simple formatting fixes on the collateral duties section (Block 29).  It will capitalize the appropriate words and ensure that there are commas in the right spots (hopefully).
+This module will perform simple formatting fixes on the collateral duties section (Block 29).  It will capitalize the appropriate words and ensure that there are commas in the right spots for the majority of use cases, I have encountered as a teacher.
 
 2.  fitrep.py:
 This module contains the procedures that write the individual sentences for the comment section of a students FITREP.
